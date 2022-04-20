@@ -1,0 +1,42 @@
+
+
+.navbar,
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  color: #fff;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.nav-links {
+}
+
+.icon-links {
+  background-color: #002342;
+}
+
+.icon-links * {
+  height: 22px;
+  padding: 10px;
+}
+
+.text-links {
+  background-color: #257da8;
+}
+.text-links a {
+  display: inline-block;
+  padding: 10px;
+  font-size: 22px;
+  color: #fff;
+  text-decoration: none;
+}
+.text-links a:hover {
+  background-color: #48bee5;
+}
